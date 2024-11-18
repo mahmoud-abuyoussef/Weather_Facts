@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: #0b131e;
+}
+.input_container {
+  background-color: #202b3b;
+  color: #fff;
+}
+.feild {
+  caret-color: #0076ff;
+}
+.feild::placeholder {
+  color: #fff;
+}
+
+button {
+  display: none;
+}
+.weather_forecast {
+  background-color: #202b3b;
+}
+
+.weather_details {
+  background-color: #202b3b;
+}
