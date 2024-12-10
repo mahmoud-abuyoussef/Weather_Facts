@@ -22,7 +22,7 @@ interface WeekForecastProps {
 function WeatherForcast({ data }: WeekForecastProps) {
   return (
     <div className="p-5 text-white rounded-lg">
-      <h2>7-Day Forecast</h2>
+      <h2>Days Forecast</h2>
       {data.forecast.forecastday.map((day, index) => {
         return (
           <div key={index} className="p-1 flex justify-between border-b mt-5 items-center last:border-none">
