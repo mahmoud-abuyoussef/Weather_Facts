@@ -1,4 +1,4 @@
-# Weather App
+# Weather Facts
 
 ## [Demo](https://weather-app-facts.vercel.app/)
 
