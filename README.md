@@ -4,14 +4,14 @@
 
 ## Tech Stack
 
-- ### Languages
+- ### Frameworks
 
-  - ![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)
-  - ![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)
+  - CSS
 
-- ### Design
+    - ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white)
 
-  - ![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white)
+  - JavaScript
+    - ![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)
 
 - #### 🔖 Version Control System
 
@@ -21,6 +21,5 @@
 - ### Deployment
   - ![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?logo=vercel&logoColor=white)
 
-**Design by Figma Community**
-
-![]()
+![Home Page](https://github.com/mahmoud-abuyoussef/Weather_App/blob/main/design/home.png)
+![Weather Data](https://github.com/mahmoud-abuyoussef/Weather_App/blob/main/design/weather-data.png)
