@@ -36,7 +36,7 @@ function Home() {
   if (Object.keys(data).length === 0 && error === "") {
     content = (
       <div className="text-white text-center h-screen mt-5rem flex flex-col items-center ">
-        <h1 className="text-white font-bold text-center md:mt-20 md:text-4xl">Welcome To Weather App</h1>
+        <h1 className="text-white font-bold text-center md:mt-20 md:text-4xl">Welcome To Weather Facts</h1>
         <p className="mt-5 text-white font-bold md:text-2xl">Enter a City Name</p>
         <Image className="mt-10 md:mt-20" src={IconApp} width={150} height={150} alt="weather_app Icon" />
       </div>
@@ -72,7 +72,7 @@ function Home() {
       <div className="w-full flex flex-col h-full">
         <div className="flex flex-col justify-between items-center p-12 md:flex-row">
           <Link href="/">
-            <span className="text-white font-bold">Weather App</span>
+            <span className="text-white font-bold">Weather Facts</span>
           </Link>
           <Input handelSearch={handelSearch} setLocation={setLocation} />
         </div>

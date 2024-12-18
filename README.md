@@ -3,6 +3,7 @@
 ## [Demo](https://weather-app-facts.vercel.app/)
 
 ## Tech Stack
+
 - ### Languages
   - ![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)
   - ![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)

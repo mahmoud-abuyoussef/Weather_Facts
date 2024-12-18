@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Weather App",
+  title: "Weather Facts",
   description: "Created by Mahmoud Abu Youssef",
 };
 
