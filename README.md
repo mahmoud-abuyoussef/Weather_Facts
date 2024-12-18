@@ -1,6 +1,6 @@
 # Weather Facts
 
-## [Demo](https://weather-app-facts.vercel.app/)
+## [Demo](https://weather-facts.vercel.app/)
 
 ## Tech Stack
 
