@@ -2,6 +2,8 @@
 
 ## [Demo](https://weather-facts.vercel.app/)
 
+## Progressive Web App (PWA)
+
 ## Tech Stack
 
 - ### Languages
