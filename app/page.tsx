@@ -1,23 +1,24 @@
 "use client";
-import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 import Input from "./components/Input";
 import Current from "./components/Current";
+import IconApp from "./assets/images/weather_app.png";
 import WeatherDeatils from "./components/WeatherDeatils";
 import WeatherForcast from "./components/WeatherForcast";
-import IconApp from "./assets/images/weather_app.png";
 
 function Home() {
+  const secretKey = process.env.NEXT_PUBLIC_SECRET_API_KEY;
+  const weatherAPIKey = process.env.NEXT_PUBLIC_WEATHER_API_KEY;
+
+  const [error, setError] = useState("");
   const [data, setData] = useState<any>({});
   const [location, setLocation] = useState("");
-  const [error, setError] = useState("");
-  const url = `https://api.weatherapi.com/v1/forecast.json?key=88a9fc86342d4d63a98185704230712&q=${location}&days=7&aqi=yes&alerts=yes`;
-
   async function handelSearch(e: React.KeyboardEvent<HTMLInputElement>) {
     if (e.key === "Enter") {
       try {
-        const response = await fetch(url);
+        const response = await fetch(`${weatherAPIKey}?key=${secretKey}&q=${location}&days=7&aqi=yes&alerts=yes`);
         if (!response.ok) {
           throw new Error();
         }
